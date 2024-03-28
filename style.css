@@ -58,6 +58,8 @@ body{
     border: white;
     color: #009379;
     font-size: 1.6rem;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .Highlighted_CTAs{
@@ -76,6 +78,9 @@ body{
     border-radius: 2rem;
     border: none;
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     /* box-shadow: 0rem 0.4rem black; */
 }
 
@@ -96,5 +101,67 @@ body{
 
 
 
-/* ------------------------------------------- MAIN ------------------------------------------ */
+/* ------------------------------ SECTION 1 ---------------------------------------- */
 
+.hero_Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.2rem;
+    margin: 12.0rem;
+}
+
+.header{
+    width: 64.8rem;
+    height: 35.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2.0rem;
+}
+
+.header_text{
+    font-size: 1.6rem;
+    width: 64.8rem;
+    height: 6.4rem;
+}
+
+.header_text p strong{
+    color: #70a5fd;
+}
+
+h1{
+    font-size: 50px;
+    max-width: 36.0rem;
+}
+
+.ctas{
+    display: flex;
+    gap: 1.8rem;
+}
+
+.ctas button{
+    font-size: 1.6rem; 
+    
+    border: none;
+    border-radius: 2.0rem;
+    width: 20.2rem;
+    height: 6rem;
+}
+
+.ctas .btn1{
+    background-color: #009379;
+    color: white; 
+}
+
+.ctas .btn2{
+    background-color: white;
+    color: #009379; 
+    border: 1px #009379 solid;
+}
+
+
+.visuals{
+    width: 45.0rem;
+    height: 45.0rem;
+}
